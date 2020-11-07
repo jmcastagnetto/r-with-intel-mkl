@@ -1,0 +1,41 @@
+
+
+   R Benchmark 2.5
+   ===============
+Number of times each test is run__________________________:  3
+
+   I. Matrix calculation
+   ---------------------
+Creation, transp., deformation of a 2500x2500 matrix (sec):  0.770666666666667 
+2400x2400 normal distributed random matrix ^1000____ (sec):  0.390333333333333 
+Sorting of 7,000,000 random values__________________ (sec):  1.20333333333333 
+2800x2800 cross-product matrix (b = a' * a)_________ (sec):  11.6033333333333 
+Linear regr. over a 3000x3000 matrix (c = a \ b')___ (sec):  5.73466666666666 
+                      --------------------------------------------
+                 Trimmed geom. mean (2 extremes eliminated):  1.74550152986347 
+
+   II. Matrix functions
+   --------------------
+FFT over 2,400,000 random values____________________ (sec):  0.346333333333329 
+Eigenvalues of a 640x640 random matrix______________ (sec):  1.10566666666667 
+Determinant of a 2500x2500 random matrix____________ (sec):  5.38333333333334 
+Cholesky decomposition of a 3000x3000 matrix________ (sec):  4.877 
+Inverse of a 1600x1600 random matrix________________ (sec):  5.05133333333333 
+                      --------------------------------------------
+                Trimmed geom. mean (2 extremes eliminated):  3.00880701888049 
+
+   III. Programmation
+   ------------------
+3,500,000 Fibonacci numbers calculation (vector calc)(sec):  0.419666666666662 
+Creation of a 3000x3000 Hilbert matrix (matrix calc) (sec):  0.310333333333337 
+Grand common divisors of 400,000 pairs (recursion)__ (sec):  0.234666666666679 
+Creation of a 500x500 Toeplitz matrix (loops)_______ (sec):  0.0619999999999929 
+Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.486999999999995 
+                      --------------------------------------------
+                Trimmed geom. mean (2 extremes eliminated):  0.312652161402282 
+
+
+Total time for all 15 tests_________________________ (sec):  37.9796666666667 
+Overall mean (sum of I, II and III trimmed means/3)_ (sec):  1.17975547337728 
+                      --- End of test ---
+

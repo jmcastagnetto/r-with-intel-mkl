@@ -1,15 +1,15 @@
 Matrix multiply
    user  system elapsed 
- 31.258   2.766   9.353 
+ 23.843   0.257  24.268 
 Cholesky Factorization
    user  system elapsed 
-  5.655   0.940   1.880 
+  4.194   0.099   4.317 
 Singular Value Decomposition
    user  system elapsed 
- 23.024   5.059   7.994 
+ 14.192   0.144  14.453 
 Principal Components Analysis
    user  system elapsed 
- 68.380  11.242  22.355 
+ 44.655   0.435  45.429 
 Linear Discriminant Analysis
    user  system elapsed 
- 65.545  10.548  35.761 
+ 49.124   0.507  49.985 

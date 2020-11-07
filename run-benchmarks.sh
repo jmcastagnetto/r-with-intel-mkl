@@ -25,5 +25,9 @@ mlibs[4]="intel-mkl"
 
 output_dir="0${selectedlib}-r-cran-${mlibs[$selectedlib]}-results"
 echo "Using the ${mlibs[$selectedlib]} library"
-Rscript 00-benchmark-scripts/1-r-benchmark-25.R | tee $output_dir/results-benchmark25.log
-Rscript 00-benchmark-scripts/2-revo-script.R | tee $output_dir/results-revoscript.log
+echo "Saving logs in ${output_dir}"
+
+Rscript 00-benchmark-scripts/1-r-benchmark-25.R | tee ${output_dir}/results-benchmark25.log
+Rscript 00-benchmark-scripts/2-revo-script.R | tee ${output_dir}/results-revoscript.log
+
+ls -l ${output_dir}

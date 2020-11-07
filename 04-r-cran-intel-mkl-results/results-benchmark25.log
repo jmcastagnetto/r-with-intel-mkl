@@ -1,0 +1,12 @@
+
+
+   R Benchmark 2.5
+   ===============
+Number of times each test is run__________________________:  3
+
+   I. Matrix calculation
+   ---------------------
+Creation, transp., deformation of a 2500x2500 matrix (sec):  0.722 
+2400x2400 normal distributed random matrix ^1000____ (sec):  0.523666666666667 
+Sorting of 7,000,000 random values__________________ (sec):  1.194 
+2800x2800 cross-product matrix (b = a' * a)_________ (sec):  2.21566666666667 

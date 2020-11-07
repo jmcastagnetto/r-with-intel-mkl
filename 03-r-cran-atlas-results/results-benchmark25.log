@@ -1,0 +1,41 @@
+
+
+   R Benchmark 2.5
+   ===============
+Number of times each test is run__________________________:  3
+
+   I. Matrix calculation
+   ---------------------
+Creation, transp., deformation of a 2500x2500 matrix (sec):  0.737 
+2400x2400 normal distributed random matrix ^1000____ (sec):  0.525666666666667 
+Sorting of 7,000,000 random values__________________ (sec):  1.20966666666667 
+2800x2800 cross-product matrix (b = a' * a)_________ (sec):  2.26633333333333 
+Linear regr. over a 3000x3000 matrix (c = a \ b')___ (sec):  1.32 
+                      --------------------------------------------
+                 Trimmed geom. mean (2 extremes eliminated):  1.05576933619347 
+
+   II. Matrix functions
+   --------------------
+FFT over 2,400,000 random values____________________ (sec):  0.329333333333332 
+Eigenvalues of a 640x640 random matrix______________ (sec):  0.680666666666666 
+Determinant of a 2500x2500 random matrix____________ (sec):  1.279 
+Cholesky decomposition of a 3000x3000 matrix________ (sec):  1.13766666666667 
+Inverse of a 1600x1600 random matrix________________ (sec):  1.20966666666667 
+                      --------------------------------------------
+                Trimmed geom. mean (2 extremes eliminated):  0.97844948732802 
+
+   III. Programmation
+   ------------------
+3,500,000 Fibonacci numbers calculation (vector calc)(sec):  0.335999999999999 
+Creation of a 3000x3000 Hilbert matrix (matrix calc) (sec):  0.245333333333332 
+Grand common divisors of 400,000 pairs (recursion)__ (sec):  0.186000000000002 
+Creation of a 500x500 Toeplitz matrix (loops)_______ (sec):  0.0509999999999996 
+Escoufier's method on a 45x45 matrix (mixed)________ (sec):  0.295999999999999 
+                      --------------------------------------------
+                Trimmed geom. mean (2 extremes eliminated):  0.238151728686114 
+
+
+Total time for all 15 tests_________________________ (sec):  11.8093333333333 
+Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.626595200721189 
+                      --- End of test ---
+
